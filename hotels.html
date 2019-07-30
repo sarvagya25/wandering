@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <title>
+            book your rooms here!!
+        </title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <style type="text/css">
+
+          @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+
+
+          
+          .card{
+           border:2px red dashed;
+          
+          }
+          .holder{
+         
+           
+           width: 80%;
+           margin: 0 auto;
+
+          }
+          .card-img-top{
+           border:2px yellow solid;
+           
+
+          }
+          .texthead{
+           color: black;
+           font-family: 'Arvo', serif;
+           font-size: 1.2em;
+          }
+
+          .textmain{
+           color:purple;
+           font-family: 'Mali', cursive;
+           font-size: 1.5em;
+
+          }
+          .mainHolder{
+           display:flex;
+           flex-wrap: wrap;
+           margin: 0 auto;
+
+           
+           margin-left: 9%;
+          }
+
+          .secondMain{
+           margin-left: 20px;
+      
+          }
+
+          .tach{
+           width: 20rem;
+           height: 22.5rem;
+          }
+
+          #container{
+           margin: 0 auto;
+          
+           width: 100%;
+
+          }
+          .star{
+           width: 10%;
+           height: 5%;
+          }
+
+          .vote{
+           width: 10%;
+           height: 7%;
+          }
+          #star{
+           width: 2px;
+           height: 2px;
+          }
+          #back{
+            background-color: aquamarine;
+          }
+
+        </style>
+    </head>
+    <body>
+            <body id="home" class="scrollspy">
+                    <!-- Navbar -->
+                    <div class="navbar-fixed">
+                      <nav class="teal">
+                        <div class="container">
+                          <div class="nav-wrapper">
+                            <a href="#" class="brand-logo">Wandering feets</a>
+                            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                              <i class="material-icons">menu</i>
+                            </a>
+                            <ul class="right hide-on-med-and-down">
+                              <li>
+                                <a href="index.htmls">Home</a>
+                              </li>
+                              <li>
+                                <a href="#search">Where to??</a>
+                              </li>
+                              <li>
+                                <a href="#contact">Contact</a>
+                              </li>
+                              <li>
+                                <a href="login.html">Login</a>
+                              </li>
+                              <li>
+                                <a href="#gallery">account</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                    </div>
+                    <ul class="sidenav" id="mobile-nav">
+                      <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="#search">Search</a>
+                      </li>
+                      <li>
+                        <a href="#popular">Popular Places</a>
+                      </li>
+                      <li>
+                        <a href="#gallery">Gallery</a>
+                      </li>
+                      <li>
+                        <a href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                
+                    <!-- Section: Slider -->
+                    <section class="slider">
+                      <ul class="slides">
+                        <li>
+                          <img src="img/hotel.jpg" />
+                          <!-- random image -->
+                          <div class="caption center-align">
+                            <h2>We Work With All Budgets</h2>
+                            <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+                              Low bugdet can't stop you from traveling, we're here to help.
+                            </h5>
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+                
+                    <!-- Section: Search -->
+                    <section
+                      id="search"
+                      class="section section-search teal darken-1 white-text center scrollspy"
+                    >
+                
+                      <div class="container">
+                        <div class="row">
+                          <div class="col s12">
+                            <div class="input-field">
+                              <h3>Search Destinations</h3>
+                              <div>
+                               
+                                <select id="city_id">
+                                  <option value="1">Bengaluru</option>
+                                  <option value="4">Delhi</option>
+                                  <option value="3">Hyderabad</option>
+                                  <option value="5">Lucknow</option>
+                                  <option value="2">Jaipur</option>
+                                </select>
+                              </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                          <button onclick="hotelsearch()">Find Hotels</button>
+                        </div>
+                    </section>
+                    <div id="container">
+        	
+	
+                    </div>
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script defersrc="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="hotel.js"></script>
+  <script src="index.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('select').not('.disabled').formSelect();
+    });
+  </script>
+  
+</html>

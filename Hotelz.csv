@@ -1,0 +1,80 @@
+_id,hotel_name,price,ratings,distance from city centre,reviews,city_id,image
+ObjectId("5d1da3614ccf650c60c66e34"),charans club and resorts,3500,8.1,5.2,178,5,/lko/charans club.jpg
+ObjectId("5d1da3614ccf650c60c66e35"),clarks avadh,2341,8.4,6.6,213,5,/lko/clarks avadh.jpg
+ObjectId("5d1da3614ccf650c60c66e36"),gemini continental,4327,7.9,6.4,253,5,/lko/gemenin continental.jpg
+ObjectId("5d1da3614ccf650c60c66e37"),golden tulip,4333,9,3.2,432,5,/lko/golden tulip.jpg
+ObjectId("5d1da3614ccf650c60c66e38"),hilton garden,5124,8,5.6,304,5,/lko/hlton.jpg
+ObjectId("5d1da3614ccf650c60c66e39"),hyatt regency,3241,8.9,3.5,433,5,/lko/hyatt.jpg
+ObjectId("5d1da3614ccf650c60c66e3a"),lebua hotel,3987,8.5,3.2,210,5,/lko/lebua.jpg
+ObjectId("5d1da3614ccf650c60c66e3b"),levana suites,3456,8.7,6.2,233,5,/lko/levena.jpg
+ObjectId("5d1da3614ccf650c60c66e3c"),maple leaf,4326,7.4,7.8,254,5,/lko/mpale leaf.jpg
+ObjectId("5d1da3614ccf650c60c66e3d"),novotel,3124,7.9,5.5,409,5,/lko/novotel.jpg
+ObjectId("5d1da3614ccf650c60c66e3e"),radisson,3999,8.3,4,187,5,/lko/radison.jpg
+ObjectId("5d1da3614ccf650c60c66e3f"),ramada by wyndham,4698,8.9,1.2,543,5,/lko/rajees.jpg
+ObjectId("5d1da3614ccf650c60c66e40"),ranjees,2987,8.4,4.5,111,5,/lko/ramada.jpg
+ObjectId("5d1da3614ccf650c60c66e41"),renaaisance hotel,4598,8.9,4.7,322,5,/lko/renaissance.jpg
+ObjectId("5d1da3614ccf650c60c66e42"),silvete hotel,2316,9,1.2,123,5,/lko/silvete.jpg
+ObjectId("5d1da3614ccf650c60c66e43"),treebo trend restro,4500,8.8,4.5,144,5,/lko/taj vivana.jpg
+ObjectId("5d1da3614ccf650c60c66e44"),vivanta by taj,10008,9.2,4.5,223,5,/lko/treebo.jpg
+ObjectId("5d1da3614ccf650c60c66e45"),hyatt centric MG road,8223,4.5,4,2345,1,/ban/hyattCenteric.jpg
+ObjectId("5d1da3614ccf650c60c66e46"),ITC Gardenia ,14090,4.8,3,8973,1,/ban/itc gardenia.jpg
+ObjectId("5d1da3614ccf650c60c66e47"),itc windsor,12345,4.8,1.2,345,1,/ban/itcWindsor.jpg
+ObjectId("5d1da3614ccf650c60c66e48"),Le Meridien,10009,4.2,4.3,6754,1,/ban/lalitAshok.jpg
+ObjectId("5d1da3614ccf650c60c66e49"),raddison blu,15098,4.3,3.3,5463,1,/ban/leelaPalace.jpg
+ObjectId("5d1da3614ccf650c60c66e4a"),ritz carlton,14322,4.6,5.6,5467,1,/ban/leMeridein.jpg
+ObjectId("5d1da3614ccf650c60c66e4b"),sheraton grand,33000,4.9,7.3,4346,1,/ban/oberoi.jpg
+ObjectId("5d1da3614ccf650c60c66e4c"),streling mac hotel,7700,4.1,4,7896,1,/ban/park.jpg
+ObjectId("5d1da3614ccf650c60c66e4d"),taj mg road,12000,4.8,6,5678,1,/ban/raddison.jpg
+ObjectId("5d1da3614ccf650c60c66e4e"),taj west end,13481,4.5,5.3,4324,1,/ban/ritzcarlton.jpg
+ObjectId("5d1da3614ccf650c60c66e4f"),taj yashwantpur,9463,4.9,3.4,4352,1,/ban/sheraton.jpg
+ObjectId("5d1da3614ccf650c60c66e50"),the den bangalore,14554,4.6,5,1234,1,/ban/den.jpg
+ObjectId("5d1da3614ccf650c60c66e51"),The lalit Ashok,5400,4.6,5.6,4321,1,/ban/sterling.jpg
+ObjectId("5d1da3614ccf650c60c66e52"),the leela palace,17980,4.6,3.5,1234,1,/ban/tajMg.jpg
+ObjectId("5d1da3614ccf650c60c66e53"),the oberoi bangluru,17890,4,4.5,2345,1,/ban/tajWest.jpg
+ObjectId("5d1da3614ccf650c60c66e54"),the park banglore,5400,4.2,5.4,7653,1,/ban/tajYashwantpur.jpg
+ObjectId("5d1da3614ccf650c60c66e55"),The waverly hotel,8745,4.1,1.2,10987,1,/ban/waverly.jpg
+ObjectId("5d1da3614ccf650c60c66e56"),the zuri white field ,7644,4.8,4.5,1276,1,/ban/zuriWhite.jpg
+ObjectId("5d1da3614ccf650c60c66e57"),alsisar haveli,9868,4.7,4.5,987,2,/jai/alsisar.jpg
+ObjectId("5d1da3614ccf650c60c66e58"),chokhi dhani,3455,4.8,5.6,654,2,/jai/chokhiDhani.jpg
+ObjectId("5d1da3614ccf650c60c66e59"),Ginger jaipur,3400,4.4,4.5,310,2,/jai/ginger.jpg
+ObjectId("5d1da3614ccf650c60c66e5a"),golden tulip j,6788,4.3,1.2,342,2,/jai/goldenTulip.jpg
+ObjectId("5d1da3614ccf650c60c66e5b"),ITC rajputana,4555,4.3,6.2,555,2,/jai/itcRajputana.jpg
+ObjectId("5d1da3614ccf650c60c66e5c"),jaipur mariot,6000,4.6,5.5,987,2,/jai/jaipurMariot.jpg
+ObjectId("5d1da3614ccf650c60c66e5d"),jas vilas,8667,4.5,4,424,2,/jai/jas vilas.jpg
+ObjectId("5d1da3614ccf650c60c66e5e"),mandana haweli,8767,4.3,6.6,325,2,/jai/lalit.jpg
+ObjectId("5d1da3614ccf650c60c66e5f"),narayan niwas palace,6546,4.8,6.4,657,2,/jai/mandana haveli.jpg
+ObjectId("5d1da3614ccf650c60c66e60"),radisson jaipur,9000,4.7,7.8,654,2,/jai/narain niwas.jpg
+ObjectId("5d1da3614ccf650c60c66e61"),rambagh palace,7675,4.3,5.2,543,2,/jai/oberoi.jpg
+ObjectId("5d1da3614ccf650c60c66e62"),royal heritage,6574,4.7,4.5,879,2,/jai/radisson.jpg
+ObjectId("5d1da3614ccf650c60c66e64"),the lalit,8900,4.1,3.5,357,2,/jai/rambagh.jpg
+ObjectId("5d1da3614ccf650c60c66e65"),the oberoi rajvilas,33300,5,1.2,987,2,/jai/royal heitage.jpg
+ObjectId("5d1da3614ccf650c60c66e66"),The raj palace,6464,4.3,,868,2,/jai/ samskara.jpg
+ObjectId("5d1da3614ccf650c60c66e69"),andaz ,9797,4.9,5.5,654,4,/del/andaz.jpg
+ObjectId("5d1da3614ccf650c60c66e6a"),hyatt regency,9868,4.5,4.5,987,4,/del/hyattRegency.jpg
+ObjectId("5d1da3614ccf650c60c66e6b"),ITC maurya,9878,4.2,4.5,875,4,/del/itcMaurya.jpg
+ObjectId("5d1da3614ccf650c60c66e6c"),JW mariott,10987,4.3,4.7,432,4,/del/jw.jpg
+ObjectId("5d1da3614ccf650c60c66e6d"),shangri-la-eros,20990,4.3,5.6,542,4,/del/shangrila.jpg
+ObjectId("5d1da3614ccf650c60c66e6e"),taj mahal,9879,3.4,7.8,764,4,/del/tajMahal.jpg
+ObjectId("5d1da3614ccf650c60c66e6f"),taj palace,5654,4.7,3.2,785,4,/del/tajPalace.jpg
+ObjectId("5d1da3614ccf650c60c66e70"),the imperial ,9868,4.6,3.5,543,4,/del/theIMperial.jpg
+ObjectId("5d1da3614ccf650c60c66e71"),the leela ambience,9878,4.5,6.4,542,4,/del/theLeela.jpg
+ObjectId("5d1da3614ccf650c60c66e72"),The leela palce,8699,4.6,6.2,537,4,/del/theLeelaAmbience.jpg
+ObjectId("5d1da3614ccf650c60c66e73"),the lodhi,7655,4.6,3.2,657,4,/del/theLodhi.jpg
+ObjectId("5d1da3614ccf650c60c66e74"),the oberoi,7764,4.8,1.2,987,4,/del/theOberoi.jpg
+ObjectId("5d1da3614ccf650c60c66e75"),the rosestate,8755,4.5,6.6,542,4,/del/rosestate.jpg
+ObjectId("5d1da3614ccf650c60c66e76"),trident hotel,9890,4.6,4.5,986,4,/del/trident.jpg
+ObjectId("5d1da3614ccf650c60c66e77"),avasa,10008,4.7,3.2,785,3,/hyd/avanat.jpg
+ObjectId("5d1da3614ccf650c60c66e78"),fairfield,4698,4.5,6.4,542,3,/hyd/fairfield.jpg
+ObjectId("5d1da3614ccf650c60c66e79"),hyatt,5124,3.4,7.8,764,3,/hyd/hyatt.jpg
+ObjectId("5d1da3614ccf650c60c66e7a"),hyderabad mariot,3241,4.6,6.2,537,3,/hyd/hyderabad mariot.jpg
+ObjectId("5d1da3614ccf650c60c66e7b"),itc kakatiya,3124,4.8,1.2,987,3,/hyd/itc kakatiya.jpg
+ObjectId("5d1da3614ccf650c60c66e7c"),itc kohenur,3987,4.3,4.7,432,3,/hyd/itcKohenur.jpg
+ObjectId("5d1da3614ccf650c60c66e7d"),lemon tree,3999,4.6,2.8,653,3,/hyd/LemonTree.jpg
+ObjectId("5d1da3614ccf650c60c66e7e"),novotel hyderabad,2316,4.6,3.5,543,3,/hyd/novotel.jpg
+ObjectId("5d1da3614ccf650c60c66e7f"),park hyatt,3456,4.2,5.2,875,3,/hyd/park hyatt.jpg
+ObjectId("5d1da3614ccf650c60c66e80"),raddison blu,4327,4.6,4.5,986,3,/hyd/radisonBlu.jpg
+ObjectId("5d1da3614ccf650c60c66e81"),taj falkunama,4598,4.3,5.6,542,3,/hyd/tajFalkulana.jpg
+ObjectId("5d1da3614ccf650c60c66e82"),taj krishna hyderabad,4333,4.5,6.6,542,3,/hyd/TajKrishna.jpg
+ObjectId("5d1da3614ccf650c60c66e83"),the westin hyderabad,2987,4.6,3.2,657,3,/hyd/TheWestin.jpg
+ObjectId("5d1da3614ccf650c60c66e84"),trident,4326,4.9,5.5,654,3,/hyd/trsident.jpg
+ObjectId("5d1da3614ccf650c60c66e85"),vivanta hyderabad,2341,4.5,4.5,987,3,/hyd/vivanta.jpg

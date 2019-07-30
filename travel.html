@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<head>
+  <title>
+    check your flights here!!
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav class="teal">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Wandering feets</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#search">Where to??</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href="login.html">Login</a>
+            </li>
+            <li>
+              <a href="#gallery">account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <ul class="sidenav" id="mobile-nav">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#search">Search</a>
+    </li>
+    <li>
+      <a href="#popular">Popular Places</a>
+    </li>
+    <li>
+      <a href="#gallery">Gallery</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <!-- Section: Slider -->
+  <section class="slider">
+    <ul class="slides">
+      <li>
+        <img src="img/flight.png" />
+        <!-- random image -->
+        <div class="caption center-align">
+          <h2>Group & Individual Getaways</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">
+            Travel alone or take your loved one's with you because 'Friends
+            who travel together, stay together'.
+          </h5>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- Section: Search -->
+  <section id="search" class="section section-search teal darken-1 white-text center scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <h3>Search Destinations</h3>
+            <div>
+              <h3>From:</h3>
+              <select id="from">
+                <option value="BLR">Bengaluru</option>
+                <option value="DEL">Delhi</option>
+                <option value="HYD">Hyderabad</option>
+                <option value="MUM">Mumbai</option>
+                <option value="JAI">Jaipur</option>
+              </select>
+            </div>
+
+            <div>
+              <h3>TO:</h3>
+              <select id="to" class="white grey-text autocomplete">
+                <option value="BLR">Bengaluru</option>
+                <option value="DEL">Delhi</option>
+                <option value="HYD">Hyderabad</option>
+                <option value="MUM">Mumbai</option>
+                <option value="JAI">Jaipur</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Date</h3>
+        <input type="date" name="" id="dates" />
+      </div>
+
+      <div>
+        <button onclick="search()">FIND</button>
+      </div>
+
+      <div id="displayBox"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script defersrc="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="travel.js"></script>
+  <script src="index.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('select').not('.disabled').formSelect();
+    });
+  </script>
+</body>
+
+</html>
